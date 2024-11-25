@@ -101,9 +101,6 @@ if (isDevelopment) {
       wallet: walletBar,
       recipient: wallet.publicKey,
       amount: 15
-    });
-  };
-
 
 
 let PEER_PORT;
