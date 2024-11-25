@@ -108,8 +108,7 @@ if (isDevelopment) {
     if (i % 3 === 0) {
       walletAction();
       walletFooAction();
-    } else if (i % 3 === 1) {
-      
+    } else i
 
 let PEER_PORT;
 if (process.env.GENERATE_PEER_PORT === "true") {
