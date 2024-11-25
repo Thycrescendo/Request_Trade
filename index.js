@@ -127,4 +127,4 @@ if (process.env.GENERATE_PEER_PORT === "true") {
 
 const PORT = process.env.PORT || PEER_PORT || DEFAULT_PORT;
 app.listen(PORT, () => {
-  console.log(`listening at ${POR
+  console.log(`listening at 
