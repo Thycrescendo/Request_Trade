@@ -130,4 +130,3 @@ app.listen(PORT, () => {
   console.log(`listening at ${PORT}`);
 
   if (PORT !== DEFAULT_PORT) {
-    syncWithRootS
