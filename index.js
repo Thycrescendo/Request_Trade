@@ -113,10 +113,7 @@ if (isDevelopment) {
       walletBarAction();
     } else {
       walletFooAction();
-      walletBarAction();
-    }
-
-  
+      walle
 
 let PEER_PORT;
 if (process.env.GENERATE_PEER_PORT === "true") {
