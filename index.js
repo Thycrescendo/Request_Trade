@@ -21,7 +21,7 @@ const blockchain = new Blockchain();
 const transactionPool = new TransactionPool();
 const wallet = new Wallet();
 const pubsub = new PubSub({ blockchain, transactionPool, redisUrl: REDIS_URL });
-cr.json());
+cn());
 app.use(express.static(path.join(__dirname, "client/dist")));
 
 require("./routes/blockchain")(app, blockchain, pubsub);
