@@ -109,7 +109,6 @@ if (isDevelopment) {
       walletAction();
       walletFooAction();
     } else if (i % 3 === 1) {
-      walletAction();
       
 
 let PEER_PORT;
