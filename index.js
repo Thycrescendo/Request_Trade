@@ -21,7 +21,7 @@ const blockchain = new Blockchain();
 const transactionPool = new TransactionPool();
 const wallet = new Wallet();
 const pubsub = new PubSub({ blockchain, transactionPool, redisUrl: REDIS_URL });
-cgit adh.join(__dirname, "client/dist")));
+cgih.join(__dirname, "client/dist")));
 
 require("./routes/blockchain")(app, blockchain, pubsub);
 require("./routes/wallet")(
@@ -130,6 +130,4 @@ app.listen(PORT, () => {
   console.log(`listening at ${PORT}`);
 
   if (PORT !== DEFAULT_PORT) {
-    syncWithRootState();
-  }
-});
+    syncWithRootS
