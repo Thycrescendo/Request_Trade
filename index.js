@@ -111,8 +111,6 @@ if (isDevelopment) {
     } else if (i % 3 === 1) {
       walletAction();
       walletBarAction();
-    } else {
-      
 
 let PEER_PORT;
 if (process.env.GENERATE_PEER_PORT === "true") {
