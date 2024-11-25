@@ -21,7 +21,7 @@ const blockchain = new Blockchain();
 const transactionPool = new TransactionPool();
 const wallet = new Wallet();
 const pubsub = new PubSub({ blockchain, transactionPool, redisUrl: REDIS_URL });
-const transactionMinadcastChain(), 1500);
+const transactionMiChain(), 1500);
 
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, "client/dist")));
