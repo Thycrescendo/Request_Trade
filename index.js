@@ -22,7 +22,7 @@ const transactionPool = new TransactionPool();
 const wallet = new Wallet();
 const pubsub = new PubSub({ blockchain, transactionPool, redisUrl: REDIS_URL });
 cgit add .
-git commit -m "chh.join(__dirname, "client/dist")));
+git commit h.join(__dirname, "client/dist")));
 
 require("./routes/blockchain")(app, blockchain, pubsub);
 require("./routes/wallet")(
