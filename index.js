@@ -104,9 +104,7 @@ if (isDevelopment) {
     });
   };
 
-  for (let i = 0; i < 10; i++) {
-    if (i % 3 === 0) {
-    
+  for (let i = 0; i
 
 let PEER_PORT;
 if (process.env.GENERATE_PEER_PORT === "true") {
