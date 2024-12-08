@@ -1,7 +1,7 @@
 
 ![APMLicense](https://img.shields.io/apm/l/vim-mode.svg)
 
-# Request Trade
+# Request Trade Frontend
 * SPA
 * Animations
 * Dynamics routing
